@@ -312,6 +312,15 @@ p {
 
 }
 
+.team__inner {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.team__item {
+	width: 25%;
+}
+
 
 
 
