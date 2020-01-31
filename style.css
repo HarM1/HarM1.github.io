@@ -376,6 +376,8 @@ p {
 	transition: background .1s linear;
 }
 
+
+
 .social__item:hover {
 	background-color: #e8ecee;
 
