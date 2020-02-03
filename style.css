@@ -1,4 +1,5 @@
 /* open-sans-regular - latin_cyrillic */
+
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -11,7 +12,9 @@
        url('fonts/open-sans-v17-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('fonts/open-sans-v17-latin_cyrillic-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
+
 /* open-sans-700 - latin_cyrillic */
+
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -26,6 +29,7 @@
 }
 
 /* raleway-regular - latin */
+
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
@@ -38,7 +42,9 @@
        url('fonts/raleway-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('fonts/raleway-v14-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
 }
+
 /* raleway-700 - latin */
+
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
@@ -77,8 +83,10 @@ p {
 	margin: 0 0 10px;
 
 }
+
 /* Container
 ===============*/
+
 .container {
 	width: 100%;
 	max-width: 1200px;
@@ -178,6 +186,7 @@ p {
 
 /* button
 ===============*/
+
 .btn{
 	display: inline-block;
 	vertical-align: top;
@@ -241,7 +250,9 @@ p {
 	color: #6c7279;
 }
 
-/* Works */
+/* Works
+===============*/
+
 .works {
 	display: flex;
 	flex-wrap: wrap;
@@ -305,7 +316,8 @@ p {
 }
 
 
-/* Team */
+/* Team
+===============*/
 
 
 .team {
@@ -357,7 +369,8 @@ p {
 }
 
 
-/* Social */
+/* Social
+===============*/
 
 .social {
 	display: flex;
@@ -397,3 +410,82 @@ p {
 	transition: fill .1s linear;
 }
 
+/* Reviews
+===============*/
+
+.reviews {
+	background-color: #53354a;
+	overflow: hidden;
+
+}
+
+.reviews__item {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.reviews__photo {
+	width: 50%;
+	height: 500px;
+	position: relative;
+
+
+}
+
+.reviews__img {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	z-index: 1;
+	transform: translateY(-50%);
+}
+
+.reviews__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+	padding: 80px;
+
+}
+
+.reviews_text {
+	margin-bottom: 25px;
+
+	font-family: 'Cardo', sans-serif;
+	font-style: italic;
+	font-size: 36px;
+	line-height: 1.2;
+	color: #fff;
+}
+
+.reviews__author {
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+/* Download
+===============*/
+
+.download {
+	margin: 90px 0;
+
+	text-align: center;
+}
+
+.download__title {
+	margin-bottom: 5px;
+	font-size: 28px;
+	color: #2d3033;
+	font-weight: 300;
+}
+
+.download_text {
+	font-size: 13px;
+	color: #2d3033;
+	font-weight: 700;
+	text-transform: uppercase;
+}
