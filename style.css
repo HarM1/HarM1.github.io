@@ -582,30 +582,18 @@ p {
 	color: #fff;
 }
 
-/* Burger
-===============*/
-
-.burger {
-	display: none;
-}
-
-/* Media
-===============*/
-
-@media (max-width: 991px) {
-
-/* Nav
-===============*/
-
-.nav {
-	display: none;
-}
 
 /* Burger
 ===============*/
 
 .burger {
-	display: block;
+	display: none;
+	padding: 9px 2px;
+
+	background: none;
+	border: 0;
+	
+	cursor: pointer;
 }
 
 .burger__item {
@@ -617,6 +605,7 @@ p {
 
 	font-size: 0;
 	color: transparent;
+	
 
 	position: relative;
 }
@@ -640,6 +629,27 @@ p {
 
 .burger__item:after {
 	bottom: -8px;
+}
+
+
+
+/* Media
+===============*/
+
+@media (max-width: 991px) {
+
+/* Nav
+===============*/
+
+.nav {
+	display: none;
+}
+
+/* Burger
+===============*/
+
+.burger {
+	display: block;
 }
 
 
